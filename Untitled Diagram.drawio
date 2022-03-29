@@ -1,1 +1,40 @@
-<mxfile host="app.diagrams.net" modified="2022-03-29T10:02:02.047Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" version="17.2.0" etag="zvYlXzXST20rwnZBIw66" type="github"><diagram id="xJlG5dg4mPz0IHdrDAKF">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-03-29T11:28:05.435Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="dtUwd5pBMggzoh6Mj8s7" version="17.2.0" type="github">
+  <diagram id="xJlG5dg4mPz0IHdrDAKF" name="Page-1">
+    <mxGraphModel dx="1422" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2336" pageHeight="1654" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="zoqmQj4eq7IMnbl9ebCm-2" value="Component" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="570" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zoqmQj4eq7IMnbl9ebCm-3" value="@Output() tender Name = new EventEmitter&amp;lt;string&amp;gt;&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="245" y="610" width="320" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="zoqmQj4eq7IMnbl9ebCm-4" value="Módosítjuk a tenderName változót a html-be" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="345" y="750" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zoqmQj4eq7IMnbl9ebCm-6" value="handleTanderNameChanged(){ this.tenderName.emit(this.tender.name) }" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="245" y="640" width="325" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zoqmQj4eq7IMnbl9ebCm-7" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="70" width="490" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="zoqmQj4eq7IMnbl9ebCm-8" value="tender-detail.componenet.html" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="70" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zoqmQj4eq7IMnbl9ebCm-10" value="tender-basics-tab" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="140" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="zoqmQj4eq7IMnbl9ebCm-11" value="tender-basics-tab" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="280" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="zoqmQj4eq7IMnbl9ebCm-12" value="(tenderName) = &quot;setTenderName($event)&quot;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="170" width="250" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="zoqmQj4eq7IMnbl9ebCm-13" value="ng-tm" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="120" width="130" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
